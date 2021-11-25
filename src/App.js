@@ -5,6 +5,7 @@ import { BrowserRouter, Route, NavLink, Routes } from "react-router-dom";
 import { GiBookshelf } from "react-icons/gi";
 import { BsQuestionSquare } from "react-icons/bs";
 import { GiBookCover } from "react-icons/gi";
+import { AiOutlineHome } from "react-icons/ai";
 
 // Pages 
 import Welcome from "./pages/Welcome";
@@ -37,6 +38,10 @@ function App() {
           {/* <Route path="/detail" element={<Detail />}></Route> */}
         </Routes>
       <footer>
+      <NavLink to="/" className="iconWrapper">
+          <AiOutlineHome className="icon" />
+          Welcome
+        </NavLink>
         <NavLink to="/books" className="iconWrapper">
           <GiBookshelf className="icon" />
           Books Rec
