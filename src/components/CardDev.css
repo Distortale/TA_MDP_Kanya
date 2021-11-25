@@ -1,0 +1,96 @@
+.containerDev {
+    display: flex;
+    flex-direction: column;
+    align-self: center;
+    align-items: center;
+    margin-top: 10px;
+    margin-left: 10px;
+    margin-right: 10px;
+}
+
+.profilepic {
+    object-fit: cover;
+    width: 170x;
+    height: 170px;
+    border-radius: 360px;
+    border-style: double;
+    border-width: 5px;
+    border-color: rgb(156, 126, 117);
+}
+
+.containerDataDev {
+    display: flex;
+    flex-direction: column;
+    align-self: center;
+    align-items: center;
+    margin-top: 10px;
+    padding: 10px 10px 10px 10px;
+    background-color: rgb(194, 185, 162);
+    border-radius: 13px;
+    border-style: double;
+    border-width: 4px;
+    border-color: rgb(104, 98, 82);
+}
+
+.containerNama {
+    display: flex;
+    flex-direction: row;
+    align-self: center;
+    align-items: center;
+    padding: 0px 10px 0px 10px;
+    background-color: rgb(141, 131, 104);
+    border-radius: 13px;
+    border-style: double;
+    border-color: rgb(78, 74, 63);
+}
+
+#nama {
+    margin-left: 5px;
+    margin-right: 5px;
+}
+
+#nim {
+    margin-top: 10px;
+    margin-bottom: 5px;
+}
+
+#hobi {
+    margin-top: 5px;
+    margin-bottom: 5px;
+}
+
+.containerGithub {
+    display: flex;
+    flex-direction: row;
+    margin-top: 10px;
+}
+
+.logoGithub {
+    display: flex;
+    align-items: center;
+    background-color: rgb(99, 92, 76);
+    border-top-left-radius: 20px;
+    border-bottom-left-radius: 20px;
+    border-left-style: double;
+    border-top-style: double;
+    border-bottom-style: double;
+    border-color: rgb(146, 140, 125);
+    padding: 0px 7px 0px 20px;
+}
+
+.kontakGithub {
+    display: flex;
+    align-items: center;
+    background-color: rgb(99, 92, 76);
+    border-top-right-radius: 20px;
+    border-bottom-right-radius: 20px;
+    border-right-style: double;
+    border-top-style: double;
+    border-bottom-style: double;
+    border-color: rgb(146, 140, 125);
+    padding: 0px 20px 0px 7px;
+}
+
+#github {
+    align-self: center;
+}

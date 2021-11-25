@@ -1,0 +1,74 @@
+.containerWelcome {
+    margin: auto;
+    position: absolute;
+    top: 50%;
+    left: 50%;
+    -ms-transform: translate(-50%, -50%);
+    transform: translate(-50%, -50%);
+}
+
+#welcome {
+    text-align: center;
+    font-size: 75px;
+    font-weight: bolder;
+    margin-top: 10px;
+    margin-bottom: 5px;
+    color: rgb(107, 101, 85);
+    font-family: "Times New Roman";
+    background-color: rgb(228, 216, 188);
+    padding: 10px 20px 10px 20px;
+    border-radius: 20px;
+    border-left-style: double;
+    border-right-style: double;
+    border-width: 5px;
+    border-color: rgb(92, 73, 60);
+    animation: welcomebanner 3s ease infinite;
+}
+
+@keyframes welcomebanner {
+    0% {
+        color: rgb(107, 101, 85);
+    }
+    50% {
+        color: rgb(75, 67, 49);
+    }
+    100% {
+        color: rgb(107, 101, 85);
+    }
+}
+
+#welcomeMessage1 {
+    text-align: center;
+    font-family: 'Times New Roman', Times, serif;
+    font-size: 21px;
+    color: rgb(97, 75, 60);
+    margin-top: 20px;
+    margin-bottom: 0px;
+}
+
+#welcomeMessage2 {
+    text-align: center;
+    font-family: 'Times New Roman', Times, serif;
+    font-size: 20px;
+    color: rgb(97, 75, 60);
+    margin-top: 7px;
+    margin-bottom: 0px;
+}
+
+#welcomeMessage3 {
+    text-align: center;
+    font-family: 'Times New Roman', Times, serif;
+    font-size: 20px;
+    color: rgb(97, 75, 60);
+    margin-top: 7px;
+    margin-bottom: 0px;
+}
+
+#welcomeMessage4 {
+    text-align: center;
+    font-family: 'Times New Roman', Times, serif;
+    font-size: 20px;
+    color: rgb(97, 75, 60);
+    margin-top: 7px;
+    margin-bottom: 0px;
+}

@@ -1,0 +1,88 @@
+.containerBuku {
+    flex-direction: column;
+    display: flex;
+    align-self: center;
+    align-items: center;
+    margin: auto;
+    text-align: center;
+    padding: 10px 10px 10px 10px;
+    background-color: rgb(185, 173, 149);
+    margin-bottom: 15px;
+    margin-left: 25px;
+    margin-right: 25px;
+    border-bottom-left-radius: 30px;
+    border-bottom-right-radius: 30px;
+    border-top-left-radius: 170px;
+    border-top-right-radius: 170px;
+    border-style: solid;
+    border-width: 5px;
+    border-color: rgb(58, 54, 47);
+}
+
+.containerRanking {
+    margin-bottom: 10px;
+    height: 100px;
+    width: 100px;
+    border-radius: 100%;
+    background-color: rgb(65, 59, 47);
+    border-style: double;
+    border-color: rgb(221, 209, 186);
+    border-width: 6px;
+}
+
+.containerDataBuku {
+    flex-direction: row;
+    display: flex;
+    align-self: center;
+    align-items: center;
+    padding-top: 0px;
+}
+
+.containerStringBuku {
+    background-color: rgb(100, 93, 79);
+    margin-left: auto; 
+    margin-right: auto;
+    padding: 5px 10px 5px 10px;
+    border-radius: 15px;
+    border-style: solid;
+    border-color: rgb(82, 75, 65);
+}
+
+#rankingBuku {
+    font-weight: bolder;
+    font-size: 50px;
+    font-family: "Times New Roman";
+    color: rgb(255, 255, 255);
+    margin-top: 21px;
+    margin-bottom: auto;
+}
+
+.sampulBuku {
+    object-fit: cover;
+    width: 125px;
+    margin-right: 10px;
+    border-radius: 15px;
+    border-style: solid;
+    border-color: rgb(97, 91, 79);
+}
+
+#ketBuku {
+    color: rgb(231, 219, 197);
+    
+}
+
+#judulBuku {
+    color: rgb(231, 219, 197);
+    font-weight: 600;
+    font-size:  17px;
+}
+
+#penulisBuku {
+    color: rgb(231, 219, 197);
+    text-decoration: underline;
+}
+
+#penerbitBuku {
+    color: rgb(231, 219, 197);
+    text-decoration: underline;
+}
